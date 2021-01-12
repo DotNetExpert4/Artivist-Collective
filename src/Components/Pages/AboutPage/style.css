@@ -1,0 +1,192 @@
+
+.counter-content span {
+    font-size: 15px;
+    color:#ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    font-weight: 600;
+    padding: 5px 25px;
+    background-color: #9966ff;
+}
+.counter-content h3 {
+    font-size: 50px;
+    margin: 14px 0 10px 0;
+    color:#037695;
+}
+.counter-content a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #037695;
+    border: 1px solid #037695;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border-radius: 50px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.counter-content a:hover {
+    background-color: #85b4bc;
+    color: #ffffff;
+    text-decoration: none;
+}
+.counter-content p span {
+    background: transparent;
+    color: #666666;
+  }
+.about.single-fun-fact {
+    border: none;
+    background: transparent;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.about.single-fun-fact h3 {
+    position: relative;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 0 5px 0;
+    line-height: initial;
+}
+
+.about.single-fun-fact p {
+    line-height: initial;
+    margin: 0 0 0 0;
+    font-size: 16px;
+    /* color: #9966ff; */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about.single-fun-fact:hover h3 {
+    color: #000000;
+}
+.about.single-fun-fact:before {
+    background: transparent !important;
+    border: 0px;
+}
+.about.single-fun-fact:hover p {
+    color: #000000;
+}
+.video-section {
+    background-image: url('https://templates.envytheme.com/gouba/default/charity-volunteer-campaign/assets/img/video-bg.jpg');  
+     background-position: center center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: relative;
+  }
+  .video-section::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+}
+  .video-image {
+    background-image: url('https://templates.envytheme.com/gouba/default/charity-volunteer-campaign/assets/img/video-image.jpg'); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+  }
+  .video-image::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.5;
+}
+  .video-image .video {
+     text-align: center;
+     position: absolute;
+     left: 0px;
+     right: 0;
+     top: 50%;
+     -webkit-transform: translateY(-50%);
+     transform: translateY(-50%);
+     margin: auto;
+  }
+  .video-image .video .video-btn {
+     display: inline-block;
+     width: 70px;
+     height: 70px;
+     line-height: 70px;
+     background-color: #ffffff;
+     border-radius: 50%;
+     color: #ed272a;
+     position: relative;
+     z-index: 1;
+  }
+  .video-image .video .video-btn::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    -webkit-animation: ripple 2s linear infinite;
+    animation: ripple 2s linear infinite;
+}
+.video-image .video .video-btn::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    -webkit-animation: ripple 2s linear 1s infinite;
+    animation: ripple 2s linear 1s infinite;
+}
+.main-nav nav .navbar-nav .nav-item a {
+    color: #1a1b1e;
+}
+.video-section .section-title span, .video-section .section-title h2 {
+    color: #ffffff;
+}
+.video-section .section-title span::before {
+    background-color: #ffffff;
+}
+.video-image .video .video-btn:hover, .video-image .video .video-btn .video-content .video-btn:focus {
+    background-color: #ed272a;
+    color: #ffffff;
+    text-decoration: none;
+}
+section.video-section {
+    margin-bottom: 10px;
+}
+@keyframes ripple {
+    0% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(1.75);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}

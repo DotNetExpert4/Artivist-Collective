@@ -1,0 +1,39 @@
+$main-color: #037695;
+.owl-carousel  .owl-stage-outer .owl-stage .owl-item:first-child
+{
+    display: block;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  .team-item .image {
+    height: 400px;
+}
+
+.team-item .image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.blog-slider .image{
+    height: 250px; 
+}
+.blog-slider .image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.home-item {
+    position: relative;
+    height: 100vh;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    z-index: 1;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold !important;
+}
